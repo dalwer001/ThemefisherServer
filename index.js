@@ -35,7 +35,7 @@ client.connect(err => {
                 res.status(201).json({ message: "Student added successfully" });
             }
         }
-        
+
         catch (err) {
             console.log(err);
         }
@@ -86,7 +86,7 @@ client.connect(err => {
     })
 
     app.get('/', (req, res) => {
-        res.send("hello from db it's working");
+        res.send("I am working");
     })
 
 });
